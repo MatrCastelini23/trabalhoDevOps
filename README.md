@@ -19,6 +19,12 @@ Regras de redirecionamento de portas criadas na VM do VirtualBox.
 | Lista de Tarefas | 8080 | Acessar o sistema |
 | PHPmyAdmin | 8081 | Acessar o banco de dados |
 
+- Instalação do Docker na VM: <br>
+
+Segui a documentação disponibilizada pela própria comunidade Docker, e atualizer as permissões do Docker seguindo os passos abaixo: 
+- sudo groupadd docker
+- sudo usermod -aG docker $USER
+
 
 ### Git Actions -> Runners
 - Adição de new self-hosted runner no GitHub (Linux)
