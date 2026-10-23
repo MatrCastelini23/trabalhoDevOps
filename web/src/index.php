@@ -7,7 +7,6 @@
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $afazeres->criarTarefa($_POST['afazer']);
-    header('Location: ' . $_SERVER['PHP_SELF']);
     exit;
 }
 
