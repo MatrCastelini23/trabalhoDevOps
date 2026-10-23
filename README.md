@@ -1,6 +1,6 @@
 # Trabalho DevOps CI/CD
 
-Aluno: Matheus Janoca Castelini
+Aluno: Matheus Janoca Castelini <br>
 R.A: 250289
 
 ## Requisitos para conclusão do trabalho.
