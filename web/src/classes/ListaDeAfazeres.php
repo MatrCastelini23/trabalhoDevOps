@@ -24,6 +24,7 @@ class ListaDeAfazeres{
             'data_realizada' => '0000-00-00'
         ]);
         echo "Tarefa criada";
+        exit;
     }
 
     public function atualizarTarefa($id, $data_realizada){

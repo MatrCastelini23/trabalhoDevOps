@@ -11,6 +11,15 @@ R.A: 250289
     - sudo apt isntall openssh-server -y
     - Criado redirecionamento de portas em configurações avançadas de redes do virtualBox
 
+Regras de redirecionamento de portas criadas na VM do VirtualBox.
+
+| Serviço | Porta | Finalidade |
+| :--- | :--- | :--- |
+| SSH | 22 | Acesso ao servidor |
+| Lista de Tarefas | 8080 | Acessar o sistema |
+| PHPmyAdmin | 8081 | Acessar o banco de dados |
+
+
 ### Git Actions -> Runners
 - Adição de new self-hosted runner no GitHub (Linux)
 - Passo a passo fornecido pelo GitHub feito dentro do Ubuntu Server (através do acesso SSH). 
