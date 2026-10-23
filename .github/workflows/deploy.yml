@@ -11,8 +11,8 @@ jobs:
       - name: Checando versão mais nova do código
         uses: actions/checkout@v4
 
-      #- name: Descendo Versão anterior
-      # run: docker compose down
+      - name: Descendo Versão anterior
+        run: docker compose down
       
       - name: Subindo Versão mais nova
         run: docker compose up -d
