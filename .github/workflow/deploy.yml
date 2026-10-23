@@ -2,7 +2,8 @@ name: Deploy
 
 on:
   workflow_dispatch:
-
+  puhs:
+    branches: ["main"]
 jobs: 
   build:
     runs-on: self-hosted
