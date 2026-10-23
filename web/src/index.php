@@ -3,12 +3,12 @@
 
   $afazeres = new ListaDeAfazeres();
 
-  $lista = $afazeres->buscarlistaAfazeres();
-
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $afazeres->criarTarefa($_POST['afazer']);
     header('Location: ' . $_SERVER['PHP_SELF']);
 }
+
+  $lista = $afazeres->buscarlistaAfazeres();
 
   if ($_SERVER['REQUEST_METHOD'] === 'PUT') {
     $dados = json_decode(file_get_contents('php://input'), true);
